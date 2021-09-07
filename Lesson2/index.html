@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Website</title>
+</head>
+
+<body>
+    <section>
+        <div class="content">
+            <div>
+                <h2>HUONG HAI DUONG</h2>
+                <p>
+                    Huong Hai Duong is a Hai Duong football player who currently plays as a forward for FC Viet Y and is<br>the captain of the Vietnam national football team. Considered one of the best players in the world and<br> one of the greatest players of all time, Huong holds the record of winning the "Golden Ball" six times,<br> winning the "Golden Shoe" six times. 2020 is classified as "Golden Ball's Dream Team". <br>
+                </p>
+                <a href="">Learn More</a>
+            </div>
+        </div>
+        <div class="imgBx">
+            <img src="h1.png" alt="">
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Achievements</a></li>
+            <li><a href="">Team</a></li>
+            <li><a href="">Ranking</a></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            <li><a href="">TikTok</a></li>
+        </ul>
+    </section>
+    <span class="menuicon" id="toggle" onclick="menuToggle()">
+    </span>
+    <script>
+        function menuToggle() {
+            var nav = document.getElementById('nav');
+            nav.classList.toggle('active');
+            var toggle = document.getElementById('toggle');
+            toggle.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
